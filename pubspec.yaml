@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: '>=0.8.2 <0.10.0'
+  # BSD
+  flutter_map: #^0.8.2
+    git:
+      url: https://github.com/moovida/flutter_map.git
+
   latlong: ^0.6.1
 
 dev_dependencies:
